@@ -143,11 +143,11 @@ section-animate {
 
 @font-face {
   font-family: spacex;
-  src: url(../fonts/D-DIN.woff2);
+  src: url(./fonts/D-DIN.woff2);
 }
 @font-face {
   font-family: spacexbold;
-  src: url(../fonts/D-DIN-Bold.woff2);
+  src: url(./fonts/D-DIN-Bold.woff2);
 }
 *,
 *::before,
