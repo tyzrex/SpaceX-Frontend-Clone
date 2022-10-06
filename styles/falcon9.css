@@ -1,3 +1,15 @@
+@font-face {
+  font-family: spacex;
+  src: url(../fonts/D-DIN.woff2);
+}
+@font-face {
+  font-family: spacexbold;
+  src: url(../fonts/D-DIN-Bold.woff2);
+}
+body {
+  font-family: spacex;
+}
+
 .bg-falcon-9 {
   background-image: url("../images/falcon9.jpg");
 }
@@ -18,6 +30,7 @@ section-animate {
 }
 
 .section-inner-center h3 {
+  font-family: spacexbold;
   font-size: 100px;
   margin-bottom: 15px;
   -webkit-animation: fadeInUp 0.5s ease-in-out;
