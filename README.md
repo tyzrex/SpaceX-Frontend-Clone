@@ -4,13 +4,13 @@ This is a clone of frontend design of SpaceX website with HTML, CSS, and JavaScr
 
 ### Demo
 
-You can see the demo of the project [here](https://spacex-clone.netlify.app/).
+You can see the demo of the project [here](https://tyzrex-spacexclone.netlify.app).
 
 ### Screenshots
 
-![Screenshot 1](https://i.imgur.com/0Z7Z7Zm.png)
+![Screenshot 1](./deploy/images/netlify.app.jpg)
 
-![Screenshot 2](https://i.imgur.com/0Z7Z7Zm.png)
+![Screenshot 2](./deploy/images/netlify.app%20(1).jpg)
 
 ### Tech Stack
 
