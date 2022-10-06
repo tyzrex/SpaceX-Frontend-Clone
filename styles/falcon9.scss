@@ -1,0 +1,64 @@
+@font-face {
+    font-family: spacex;
+    src: url(../fonts/D-DIN.woff2);
+  }
+  
+  @font-face {
+    font-family: spacexbold;
+    src: url(../fonts/D-DIN-Bold.woff2);
+
+body{
+    font-family: spacex;
+}
+
+.bg-falcon-9 {
+    background-image: url('../images/falcon9.jpg');
+  }
+  
+  section-animate {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .section-inner-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .section-inner-center h3 {
+    font-family: spacexbold;
+    font-size: 100px;
+    margin-bottom: 15px;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  .section-inner-center p {
+    font-size: 20px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+  }
+  
+  /* Stats */
+  .stats {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .stats div span {
+    font-size: 160px;
+  }
+  
+  .stats div h4 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
